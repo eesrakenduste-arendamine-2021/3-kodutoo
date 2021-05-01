@@ -1,3 +1,14 @@
+Kodutöö 3, Kalkulaator: Reimo Rämman
+
+Antud kalkulaatori tegemiseks on näitena kasutatud https://www.youtube.com/watch?v=0Vg4EiYPCUc. Selleks, et saada veebilehele animeeritud nupp, mis vaheldab veebilehte päeva ja öö jaoks veebilehe tausta värve, kasutasin näidet https://www.youtube.com/watch?v=hy27lzmButc&t=9s. Ja ajaloo jaoks https://stackoverflow.com/questions/58573904/how-to-show-calculation-history-in-javascript-when-making-a-html-based-calculato--.
+
+Lehel on olemas minu nimi, repositooriumi URL ja animeeritud nupp öö ja päeva resiimi muutmiseks. Nuppu vajutades muutub veebilehe tausta värvid heledast tumedaks ja vastubidi.
+
+Kalkulaator näitab ka varasemaid tehteid, lehte värskendades kaovad varasemad tehted.
+![image](https://user-images.githubusercontent.com/78594982/116793392-363f4380-aacf-11eb-9e24-7965bdc02556.png)
+![image](https://user-images.githubusercontent.com/78594982/116793411-4e16c780-aacf-11eb-986d-01c4170e9a2b.png)
+
+
 # 3kodutoo - 15 punkti
 3. kodutöö Eesrakenduste arendamises.
 
