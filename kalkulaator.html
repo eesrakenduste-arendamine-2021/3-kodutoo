@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('ul').click(function(){
+        $('ul').toggleClass('active')
+        $('body').toggleClass('dark')
+      })
+    })
+  </script>
+  <title>Calculator</title>
+  <link href="kalkulaator.css" rel="stylesheet">
+  <script src="kalkulaator.js" defer></script>
+</head>
+<body>
+  <h3>Reimo Rämman</h3>
+  <h6>https://github.com/reimoramman/3-kodutoo</h6>
+  <ul>
+    <li>
+      <span>Night</span>
+      <span>Day</span>
+    </li>
+  </ul>
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-sqrt>√</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>*</button>
+    <button data-square>x^2</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-operation>^</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>-</button>
+    <button data-log>ln</button>
+    <button data-number>0</button>
+    <button data-number>.</button>
+    <button data-equals class="span-two">=</button>
+    <div class="historyDiv">
+      <h1 id="tableT">History</h1>
+      <table id="historyList"></table>
+    </div>
+  </div>
+</body>
+</html>
