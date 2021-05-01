@@ -1,16 +1,34 @@
-# 3kodutoo - 15 punkti
-3. kodutöö Eesrakenduste arendamises.
+# Markus Tammeoja
 
-## Tähtaeg 07.05.2021 23:59
+Olen koostanud väikse Flappy Bird-laadse mängu. Võttis palju rohkem aega, kui arvasin, aga LÕPUKS sain siiski tööle (async JS tund oleks väga kasulik :D)
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Kõik resurssi allikad on mängu veebilehel. Mõned joonistasin ise (raudkang).
 
-## Nõuded
+### Live link:
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+- [Demo](http://www.tlu.ee/~dr1nky/calculator/)
+
+### Kasutatud õpetus
+- [Youtube - kalkulaatori loogika](https://www.youtube.com/watch?v=j59qQ7YWLxw)
+- [w3schools - modali tegemise värskendus](https://www.w3schools.com/howto/howto_css_modals.asp)
+
+
+### Funktsionaalsus
+
+- Kalkulaator töötab
+- Öö- ja päeva režiim
+- Ajaloo funktsionaalsus (sama sessiooni jooksul)
+- Ees- ja perekonnanimi + repo link
+
+### Muud
+
+- Lisaks õpetusele tegin sin, cos, tan ja ruutjuure arvutamise
+- Kui sisend on tühi, siis vilkub ">"
+- Kasutatud Font Awesome ikoonide jaoks
+
+### Pildid
+
+![Main dark](screenshots/main_dark.png "main")
+![Main light](screenshots/main_light.png "main")
+![History dark](screenshots/history_dark.png "history")
+![History light](screenshots/history_light.png "history")

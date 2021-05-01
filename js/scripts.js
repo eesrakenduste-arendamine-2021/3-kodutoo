@@ -4,6 +4,7 @@ window.onload = function () {
     // Calculator buttons
     const numButton = document.querySelectorAll('[data-number]');
     const opButton = document.querySelectorAll('[data-operation]');
+    const complexButton = document.querySelectorAll('[data-complex]');
     const equalsButton = document.querySelector('[data-equals]');
     const deleteButton = document.querySelector('[data-delete]');
     const clearButton = document.querySelector('[data-clear]');
@@ -29,7 +30,7 @@ window.onload = function () {
 
 
     // Get the modal
-    let modal = document.getElementById("myModal");
+    let modal = document.getElementById("historyModal");
 
     let modalBody = document.querySelector(".modal-body");
 
@@ -95,7 +96,7 @@ window.onload = function () {
             let compute;
             const prev = parseFloat(this.previous);
             const cur = parseFloat(this.current);
-            if ((isNaN(prev) && op != "sqrt") || isNaN(cur)) return console.log("wtf " + this.operation);
+            if (isNaN(prev) || isNaN(cur)) return;
             switch (this.operation) {
                 case "+":
                     compute = prev + cur;
@@ -108,10 +109,6 @@ window.onload = function () {
                     break;
                 case "*":
                     compute = prev * cur;
-                    break;
-                case "sqrt":
-                    console.log("attempt to sqrt " + this.operation);
-                    compute = Math.sqrt(cur);
                     break;
                 default:
                     return;
@@ -128,8 +125,36 @@ window.onload = function () {
                 previous.innerText = `${this.formatNumber(this.previous)} ${this.operation}`;
             } else {
                 previous.innerText = '';
-                console.log("aaa");
             }
+        }
+
+        computeComplex(complex) {
+            this.operation = complex;
+            let compute;
+            const cur = parseFloat(this.current);
+            if (isNaN(cur)) return;
+            switch (complex) {
+                case "sin":
+                    compute = Math.sin(cur);
+                    break;
+                case "cos":
+                    compute = Math.cos(cur);
+                    break;
+                case "tan":
+                    compute = Math.tan(cur);
+                    break;
+                case "sqrt":
+                    compute = Math.sqrt(cur);
+                    break;
+                default:
+                    return;
+            }
+            this.saveComplex(cur, complex, compute);
+            this.operation = complex;
+            this.current = compute;
+            this.previous = cur;
+            current.innerText = compute;
+            previous.innerText = cur;
         }
 
         formatNumber(number) {
@@ -150,14 +175,33 @@ window.onload = function () {
         }
 
         save(first, second, operant, result) {
+            if (document.querySelector(".placeholder")) {
+                document.querySelector(".placeholder").remove();
+            }
             let saved = document.createElement("p");
             saved.innerHTML = `${this.formatNumber(first)} ${operant} ${this.formatNumber(second)} = ${this.formatNumber(result)}`;
+            modalBody.prepend(saved);
+        }
+
+        saveComplex(number, operant, result) {
+            if (document.querySelector(".placeholder")) {
+                document.querySelector(".placeholder").remove();
+            }
+            let saved = document.createElement("p");
+            saved.innerHTML = `${operant} of ${this.formatNumber(number)} = ${this.formatNumber(result)}`;
             modalBody.prepend(saved);
         }
 
     }
 
     const calc = new Calculator(previous, current);
+
+    complexButton.forEach(btn => {
+        btn.addEventListener('click', () => {
+            calc.computeComplex(btn.innerText);
+            calc.updateDisplay();
+        })
+    });
 
     numButton.forEach(btn => {
         btn.addEventListener('click', () => {
