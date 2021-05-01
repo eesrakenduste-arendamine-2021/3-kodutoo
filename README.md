@@ -1,16 +1,18 @@
-# 3kodutoo - 15 punkti
-3. kodutöö Eesrakenduste arendamises.
+KODUTÖÖ 3
+Autor: Sofia Geroiskaja
+Projekt: Kalkulaator
 
-## Tähtaeg 07.05.2021 23:59
+Selleks, et aru saada kuidas kalkulaatorit üldse teha HTML, CSS ja JS-ga vaatasin paar youtube videot (https://www.youtube.com/watch?v=JDiurjhpOXA, https://www.youtube.com/watch?v=j59qQ7YWLxw).
+Sealt ma midagi ei copy pastenud, lihtsalt vaatasin kuidas üldse selliseid asju tehakse.
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Minu Lehe headeris on välja toodud minu nimi ja repositooriumi link ja on olemas "Night button", mida vajutades backgroud color ja tekti värv muutuvad.
 
-## Nõuded
+Kalkulaator ise koosneb kahest osast: kalkulaatorist ja ajaloo listist. Ajaloo listi tuleb equation, answer ja nupp "Use", mida vajutades saab just seda equastionit kasutada. Kui ajalugu on pikem kui listi height siis on olemas scrolli funktsioon, samuti võib ajalugu kustutada.
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+Kalkulaatoris on olemas numbrid 0 - 9-ni, kustutamise funktsioon, märgi vahetamise funktsioon +/-, võib lisada "dot", on olemas +, - *, /, = funktsioonid. Ekstra funktsioonid mida ma lisasin on: 1/x, sqrt, square x^2, y^x, cos, tan, sin ja ln.
+
+Pildid
+
+<img width="919" alt="4" src="https://user-images.githubusercontent.com/70939482/116781577-66192780-aa8c-11eb-9c08-2bcccbf2f915.png">
+
+<img width="921" alt="5" src="https://user-images.githubusercontent.com/70939482/116781583-70d3bc80-aa8c-11eb-8319-37032ef5f7f3.png">
