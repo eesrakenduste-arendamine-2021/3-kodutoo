@@ -19,6 +19,7 @@
 ### Muud
 
 - Lisaks õpetusele tegin sin, cos, tan ja ruutjuure arvutamise
+- Nutiseadmesõbralik
 - Kui sisend on tühi, siis vilkub ">"
 - Kasutatud Font Awesome ikoonide jaoks
 
