@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="calc.js" defer></script>
+    <title>Calculator</title>
+    <style>
+      .night_mode {
+        background-color: black;
+        color: #60b3aa;
+      }
+      #night{
+        font-size: 12px;
+        width: 70px;
+        background-color: #fffdfd;
+        color: black;
+      }
+      #memory_clear{
+        color: #60b3aa;
+        font-size: 16px;
+      }
+      .header {
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+        background: #60b3aa;
+        color: white;
+        font-size: 16px;
+      }
+    </style>
+</head>
+<body>
+  <div class="header">
+    <p>Autor: Sofia Geroiskaja<p>
+    <p><a id="repo" href="https://github.com/sofiageroiskaja/3-kodutoo">Repo link</a></p> 
+    <button id="night" onclick="nightMode()">Night</button>
+    </div>
+  <div id="container">
+    <div id="calculator">
+      <div id="display">
+        <form name="total">
+          <span id="total">0</span>
+        </form>
+      </div>
+      <div id="buttons">
+        <div class="btn_row">
+          <button id="clear" value="C/E">C/E</button>
+          <button id="change_sign" value="-/+">-/+</button>
+          <button class="actions" value="/">&divide;</button>
+        </div>
+        <div class="btn_row">
+          <button class="number" value="7">7</button>
+          <button class="number" value="8">8</button>
+          <button class="number" value="9">9</button>
+          <button class="actions" value="*">&times;</button>
+        </div>
+        <div class="btn_row">
+          <button class="number" value="4">4</button>
+          <button class="number" value="5">5</button>
+          <button class="number" value="6">6</button>
+          <button class="actions" value="-">-</button>
+        </div>
+        <div class="btn_row">
+          <button class="number" value="1">1</button>
+          <button class="number" value="2">2</button>
+          <button class="number" value="3">3</button>
+          <button class="actions" value="+">+</button>
+        </div>
+        <div class="btn_row">
+          <button id="zero" class="number" value="0">0</button>
+          <button id="dot" value=".">.</button>
+          <button id="equalto" value="=">=</button>
+        </div>
+        <div class="btn_row">
+          <button id="denom" value="1/x"><span class="denominator"><span class="denom-top">1</span><span class="denom-slash">/</span><span class="denom-btm">x</span></span></button>
+          <button id="sqrt" value="&radic;">&radic;</button>
+          <button id="square" value="x2">x<span class="exponent">2</span></button>
+          <button id="squareofy" class="actions" value="^">y<span class="exponent">x</span></button>
+        </div>
+        <div class="btn_row">
+          <button id="cos" value="cos">cos</button>
+          <button id="tan" value="tan">tan</button>
+          <button id="sin" value="sin">sin</button>
+          <button id="ln" value="ln">ln</button>
+        </div>
+      </div>
+    </div>
+    <div id="results">
+      <ul id="memory"><li id="default">No recent calculations</li></ul>
+      <a id="memory_clear" href="#">Delete Memory</a>
+    </div>
+  </div>
+  <script>
+    function nightMode() {
+       var e = document.body;
+       e.classList.toggle("night_mode");
+    }
+    </script>
+</body>
+</html>
