@@ -1,5 +1,8 @@
 # Autor: Jan-Erik Läänesaar
 
+## Link:
+https://www.tlu.ee/~janerik5/kalkulaator/calculator.html
+
 ## Rakendus suudab:
 
 *Arvutada komakohtadega
@@ -24,7 +27,6 @@
 ![Screenshot_2](https://user-images.githubusercontent.com/70939499/116821538-f33ea800-ab82-11eb-9d3d-5fb2659a4682.png)
 
 ![Screenshot_3](https://user-images.githubusercontent.com/70939499/116821539-f46fd500-ab82-11eb-89ab-b0db16ab60b7.png)
-
 
 ## Kasutatud allikad:
 
