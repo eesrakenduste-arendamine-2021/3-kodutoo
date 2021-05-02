@@ -1,5 +1,3 @@
-Veebikalkulaator
-
 Kalkulaator suudab:
 
 *lahutada
