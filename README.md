@@ -36,4 +36,4 @@ https://dev.to/albertomontalesi/add-dark-mode-to-your-website-with-just-a-few-li
 
 https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 
-https://sebhastian.com/javascript-factorial/!
+https://sebhastian.com/javascript-factorial/
