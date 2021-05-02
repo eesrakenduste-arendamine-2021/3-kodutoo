@@ -11,9 +11,10 @@ table td{
 	width: 70px;		
 }
 footer{
+	font-family: 'Varela Round', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 16px;
+	font-size: 18px;
 }
 header{
 	text-align: center;
@@ -25,7 +26,7 @@ body{
 	text-align: center;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 20px;
-}	
+}
 input[type="button"] {
 	font-family: 'Varela Round', sans-serif;
     color: black;
@@ -64,3 +65,18 @@ input[type="button"]:hover {
 #theme-toggle:hover{
     background-color: #2a2a2a;
 }
+#history-toggle{
+	font-family: 'Varela Round', sans-serif;
+    background-color: #5d5d5d; 
+    color: white;
+    padding: 10px 16px;
+    border: none;
+	margin: 12px;
+    border-radius: 15px;
+	justify-content: center;
+}
+
+#history-toggle:hover{
+    background-color: #2a2a2a;
+}
+
