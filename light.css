@@ -1,0 +1,66 @@
+table{
+	top: auto;
+	width: auto;
+	background-color: #343434;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table td{
+	height: 60px;
+	width: 70px;		
+}
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+header{
+	text-align: center;
+	padding: 2px;
+	color: black;
+	font-size: 14px;
+}
+body{
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+}	
+input[type="button"] {
+	font-family: 'Varela Round', sans-serif;
+    color: black;
+	background-color: #dedede;
+	font-size: 22px;
+    border: white;
+	border-radius: 15px;
+    width: 90%;
+	height: 90%;
+}
+input[type="text"] {
+	font-family: 'Varela Round', sans-serif;
+    background-color: #b2b2b2;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+    border: white;
+	border-radius: 10px;
+    width: 95%; 
+	height: 80%;
+} 
+input[type="button"]:hover {
+    background-color: #fcfcfc
+}
+#theme-toggle{
+	font-family: 'Varela Round', sans-serif;
+    background-color: #5d5d5d; 
+    color: white;
+    padding: 10px 16px;
+    border: none;
+	margin: 12px;
+    border-radius: 15px;
+	justify-content: center;
+}
+
+#theme-toggle:hover{
+    background-color: #2a2a2a;
+}
