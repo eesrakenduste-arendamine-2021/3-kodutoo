@@ -3,13 +3,21 @@ Veebikalkulaator
 Kalkulaator suudab:
 
 *lahutada
+
 *liita
+
 *Korrutada
+
 *Jagada 
+
 *leida jääki 
+
 *Arvutada komakohtadega
+
 *Salvestada samas sessioonis arvutatud tehteid
+
 *Vahetada nii heleda, kui ka tumeda teema vahel
+
 
 Ekraanipilid rakendusest:
 
