@@ -8,7 +8,7 @@
 
 *Korrutada ja jagada 
 
-*Leida jääki, ruutu, ruutjuurt, faktoriaali,siinust ja koosinust 
+*Leida jääki, ruutu, ruutjuurt, faktoriaali, siinust ja koosinust 
 
 *Salvestada samas sessioonis arvutatud tehteid
 
