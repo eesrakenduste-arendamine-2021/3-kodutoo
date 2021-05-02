@@ -1,16 +1,21 @@
-# 3kodutoo - 15 punkti
-3. kodutöö Eesrakenduste arendamises.
+Veebikalkulaator
 
-## Tähtaeg 07.05.2021 23:59
+Kalkulaator suudab:
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+*lahutada
+*liita
+*Korrutada
+*Jagada 
+*leida jääki 
+*Arvutada komakohtadega
+*Salvestada samas sessioonis arvutatud tehteid
+*Vahetada nii heleda, kui ka tumeda teema vahel
 
-## Nõuded
+Ekraanipilid rakendusest:
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+![kalkulaator](https://user-images.githubusercontent.com/70939499/116817522-6e965e80-ab6f-11eb-8288-9696e423c473.png)
+
+
+![kalkulaator_tume](https://user-images.githubusercontent.com/70939499/116817527-7229e580-ab6f-11eb-8419-ba80e3715294.png)
+
+Autor: Jan-Erik Läänesaar
