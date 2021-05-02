@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link id="stylesheet" rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="javascript.js" defer></script>
+  <script>
+    function setStyleSheet(url){
+       var stylesheet = document.getElementById("stylesheet");
+       stylesheet.setAttribute('href', url);
+    }
+    </script>
+
+</head>
+
+<body>
+<a class="link" href="https://github.com/hansm4543/3-kodutoo">Repositoorium</a>
+<a class="link2" onclick="setStyleSheet('style.css')" href="#">Normal Theme</a>
+<a class="link3" onclick="setStyleSheet('style2.css')" href="#">Dark Theme</a>
+
+<div class="title"><h1>Hans-Märten Liiu Calculator</h1></div>
+<div class="calculator-grid">
+    <table>
+    <tr>
+        <td colspan="4"><input type="text" id="result" /></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="dis('1')" /> </td>
+        <td><input type="button" value="2" onclick="dis('3')" /> </td>
+        <td><input type="button" value="3" onclick="dis('3')" /> </td>
+        <td><input type="button" value="+" onclick="dis('+')" /> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="dis('4')" /> </td>
+        <td><input type="button" value="5" onclick="dis('5')" /> </td>
+        <td><input type="button" value="6" onclick="dis('6')" /> </td>
+        <td><input type="button" value="/" onclick="dis('/')" /> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="dis('7')" /> </td>
+        <td><input type="button" value="8" onclick="dis('8')" /> </td>
+        <td><input type="button" value="9" onclick="dis('9')" /> </td>
+        <td rowspan="0" class ="Clr"><input type="button" id="Clr" value="Clear" onclick="clr()" /> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="√" onclick="doMath()"/></td>
+        <td><input type="button" value="0" onclick="dis('0')" /> </td>
+        <td><input type="button" value="x^2" onclick="doMathSquare()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="MEM" onclick="doMathMemorySave()"></td>
+        <td><input type="button" value="Use-MEM" onclick="doMathMemoryBringBack()"></td>
+        <td><input type="button" value="=" onclick="solve()" /> </td>
+    </tr>
+    </table>
+</div>
+<button id="functionbutton" onclick="showhidefunction()">Show/Hide History</button>
+<br>
+<div id="HistoryContainer">
+    <h2>History</h2>
+    <div id="history"></div>
+</div>
+</body>
+
+</html>

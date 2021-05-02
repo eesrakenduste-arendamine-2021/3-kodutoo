@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(pilt.jpg);
+    
+}
+.link{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.link3{
+    position: fixed;
+    left: 20px;
+    top: 60px;
+    font-size: 20px;
+    color: white;
+}
+.link2{
+    position: fixed;
+    left: 20px;
+    top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.title h1{
+    border: 1px outset rgb(185, 185, 185);
+    padding: 10px 10px;
+    background-color: rgb(240, 240, 240);
+    width: 350px;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    
+    background-color: rgb(137, 250, 115);
+    color: rgb(0, 0, 0);
+    border: solid black 2px;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+}
+
+input[type="text"] {
+    background-color: white;
+    border: solid black 2px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3%;
+    font-size: medium;
+    text-align: right;
+
+    outline: none;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+.calculator-grid{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-spacing: 5px;
+    border: 1px black;
+    width: 100%;
+    height: 50%;
+    margin: 50px 0;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    margin: 0 30%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(253, 252, 162);
+}
+
+tr{
+    width: 100%;
+}
+
+.Clr{
+    height: 100px;
+    padding: 0%;
+
+}
+input#Clr{
+    height: 100%;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#HistoryContainer{
+    margin: 0 30%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    padding-top: 1px;
+    border-radius: 5px;
+
+    display: none;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#functionbutton{
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+#functionbutton:hover{
+    cursor: pointer;
+    background-color: rgb(245, 234, 234);
+    
+}
