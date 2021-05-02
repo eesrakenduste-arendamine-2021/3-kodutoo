@@ -31,7 +31,9 @@ Ekraanipilid rakendusest:
 Kasutatud allikad:
 
 https://jsfiddle.net/2y9qfwxn/2/
-https://stackoverflow.com/questions/58573904/how-to-show-calculation-history-in-javascript-when-making-a-html-based-calculato 
+
+https://stackoverflow.com/questions/58573904/how-to-show-calculation-history-in-javascript-when-making-a-html-based-calculato
+
 https://dev.to/albertomontalesi/add-dark-mode-to-your-website-with-just-a-few-lines-of-code-5baf
 
 
