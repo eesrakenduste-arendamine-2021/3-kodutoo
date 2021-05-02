@@ -53,7 +53,7 @@ function pow(){
 	document.getElementById("result").value = ""; 
 	document.getElementById("result").value = power;
   
-	addToHistory('\n' + c +'²' + '=' + power + '\n');  
+	addToHistory('\n' + d +'²' + '=' + power + '\n');  
 }
 
 function fact(){
