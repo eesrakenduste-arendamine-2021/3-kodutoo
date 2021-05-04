@@ -1,4 +1,4 @@
-# 3kodutoo - 15 punkti
+# Harli Kodasma
 3. kodutöö Eesrakenduste arendamises.
 
 ## Tähtaeg 07.05.2021 23:59
