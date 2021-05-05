@@ -19,6 +19,6 @@ Kalkulaatoriga saab:
 
 Kalkuleerimine toimib float andmetüübiga.
 
-![ekraanipildid/ekraanipilt1.jpg](Avaekraan)
-![ekraanipildid/ekraanipilt2.jpg](Day Mode)
-![ekraanipildid/ekraanipilt3.jpg](Night Mode)
+![ekraanipilt1.jpg](Avaekraan)
+![ekraanipilt2.jpg](Day Mode)
+![ekraanipilt3.jpg](Night Mode)
