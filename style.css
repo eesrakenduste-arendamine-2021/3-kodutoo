@@ -1,0 +1,155 @@
+body {
+    background-size: 5000% 100%;
+    background-image: linear-gradient(to right, #FFF6C0, #081135);
+    transition: 2s ease-out;
+    background-position: center;
+    width: 620px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+#repository {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+#name {
+    position: absolute;
+    bottom: 2%;
+    left: 0%;
+}
+
+.container {
+    /*fade start*/
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /*fade end*/
+    opacity: 1;
+    transition: opacity 0.3s;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #000000;
+    border-radius: 8px;
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+.number-container {
+    text-align: right;
+    background-color: #4F4F4F;
+    color: white;
+    border-radius: 8px;
+    padding-right: 8px;
+}
+
+.button-grid {
+    padding-top: 8px;
+}
+
+#history {
+    font-size: 22px;
+    color: white
+}
+
+#result {
+    font-size: 30px;
+    color: #FF7800;
+}
+
+.row {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 60px 60px 60px 60px;
+}
+
+.container button {
+    cursor: pointer;
+    color: white;
+    width: 70px;
+    height: 60px;
+    font-size: 25px;
+    margin: 10px auto;
+    background-color: #4F4F4F;
+    border-radius: 8px;
+    border: none;
+}
+
+#day {
+    opacity: 0.3;
+    border-radius: 8px;
+    position: relative;
+    width: 50px;
+    top: 250px;
+    padding: 5px;
+    border: solid;
+    
+}
+
+#night {
+    opacity: 0.3;
+    border-radius: 8px;
+    position: relative;
+    width: 50px;
+    left: 500px;
+    top: 250px;
+    padding: 5px;
+    border: solid;
+}
+
+#day:hover{
+    transition: 1s;
+    opacity: 1.0;
+}
+
+#night:hover{
+    transition: 1s;
+    opacity: 1.0;
+}
+
+button:hover {
+    background-color: #888888;
+}
+
+#summarise {
+    width: 150px;
+}
+
+#reset {
+    color: #FF7800;
+}
+
+#delete {
+    color: #A70000;
+}
+
+/*fadein*/
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media only screen and (max-width: 800px){
+    #day {
+        top: 0px;
+        position: relative;
+        width: 50px;
+        left: 33%;
+    }
+    
+    #night {
+        top: 0px;
+        position: relative;
+        left: 44%;
+        width: 50px;
+    }
+}
