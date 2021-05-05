@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="calculator.js" defer></script>
+    <title>Oliver's Calculator</title>
+</head>
+<body>
+    <div class="change-mode">
+        <input type="image" id="day" src="daymode.png">
+        <input type="image" id="night" src="nightmode.png">
+    </div>
+    <div class="container" id="container">
+        <div class="number-container">
+            <div id="history">‏‏‎ ‎</div>
+            <div id="result" maxlength="19">0</div>
+        </div>
+        <div class="button-grid">
+            <div class="row">
+                <button id="reset">C</button>
+                <button id="delete">DEL</button>
+                <button id="percentage">^</button>
+                <button id="division">/</button>
+            </div>
+            <div class="row">
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+                <button id="multiplication">*</button>
+            </div>
+            <div class="row">
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+                <button id="divide">-</button>
+            </div>
+            <div class="row">
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+                <button id="plus">+</button>
+            </div>
+            <div class="row">
+                <button id="point">.</button>
+                <button id="zero">0</button>
+                <button id="summarise">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="name">Oliver Labi</div>
+    <div id="repository">https://github.com/oliverlabi/3-kodutoo</div>
+    
+    
+</body>
+</html>
