@@ -3,6 +3,9 @@
 ## Töö autor:
 Marilii Saar
 
+## Link:
+http://www.tlu.ee/~neni/eesrakendused/kalkulaator/
+
 ## Funktsionaalsus:
 Kood on kirjutatud tutorialeid kasutamata.
 
