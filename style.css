@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+display: grid;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: lightblue;
+}
+footer{
+    padding-top: 22%;
+    flex-shrink: 10;
+    position: relative;
+}
+.heading{
+    position: relative;
+}
+.calculator{
+position: relative;
+display: grid;
+}
+.calculator .value{
+grid-column: span 4;
+height: 100px;
+text-align: right;
+border: none;
+outline: none;
+padding: 10px;
+font-size: 18px;
+}
+.calculator span{
+display: grid;
+width: 60px;
+height: 60px;
+color: #fff;
+background: rgba(39, 17, 136, 0.5);
+place-items: center;
+border: 1px solid rgba(0,0,0,.1);
+}
+.calculator span:active{
+background: #74ff3b;
+color: #111;
+}
+.calculator span.clear{
+grid-column: span 2;
+width: 120px;
+background: #d46060;
+opacity: 0.8;
+}
+.calculator span.plus{
+    grid-row: span 2;
+    height: 120px;
+}
+.calculator span.equal{
+    grid-row: span 2;
+    background: #ffba60;
+    opacity: 0.8;
+    height: 120px;
+}
+.button{
+    color:#fff;
+    display: grid;
+    width: 60px;
+    height: 60px;
+    background: rgba(29, 13, 99, 0.5);
+    place-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+}
+#history{
+width: 240px;
+height: 300px;
+overflow-y:scroll;
+font-size: 1.1em;
+background: rgba(39, 17, 136, 0.5);
+box-sizing: border-box;
+padding: 10px 20px;
+position: relative;
+}
+#history::-webkit-scrollbar{
+    width: 0;
+}
+#history h3{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color:#fff;
+}
+#history p:last-child{
+    font-size: 1.3em;
+    font-weight: 500;
+    color:#fff;
+}
+.switch{
+    color:aliceblue;
+    border: 1px;
+    border-color: #111;
+    position: relative;
+}
+
+input[type="checkbox"]{
+-webkit-appearance: none;
+visibility: hidden;
+display: none;
+}
+
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #092c3e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check{
+    background: #fff;
+    box-shadow: 0 0 0 2000px #092c3e;
+}
+
+.check:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check:before{
+    transform: translateX(-50px);
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #092c3e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+
+input[type="checkbox"]:checked ~ .check:after{
+    transform: translateX(0px);
+}
