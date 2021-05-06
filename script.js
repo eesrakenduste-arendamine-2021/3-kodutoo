@@ -81,7 +81,7 @@ function showHistory() {
     if (history.length > 0) {
         history.forEach(elem => {
             try{
-                hist.innerHTML += "<p>" + elem.equation + " = " + eval(cleanUp(elem.equation.replace(',', '.'))).toFiced(2) + "</p>";
+                hist.innerHTML += "<p>" + elem.equation + " = " + eval(cleanUp(elem.equation.replace(',', '.'))).toFixed(2) + "</p>";
             }
             catch {
                 hist.innerHTML += "<p>" + elem.equation + " = ERROR</p>";
