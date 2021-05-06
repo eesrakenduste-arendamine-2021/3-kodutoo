@@ -57,6 +57,7 @@ main {
     justify-content: center;
     flex-grow: 1;
     flex-shrink: 0;
+    padding: 20px 0;
 }
 
 .answer {
