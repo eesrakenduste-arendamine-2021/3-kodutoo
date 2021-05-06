@@ -28,7 +28,7 @@ function btnClick(e) {
     if (e.target.getAttribute('data-value') == "=" && calculation != "") {
         history.push(new Calc(calculation));
         try{
-            document.getElementById('result').innerHTML = eval(calculation.replace(',', '.'));
+            document.getElementById('result').innerHTML = eval(calculation.replace(',', '.')).toFixed(2);
         }
         catch {
             document.getElementById('result').innerHTML = "ERROR";
@@ -81,7 +81,7 @@ function showHistory() {
     if (history.length > 0) {
         history.forEach(elem => {
             try{
-                hist.innerHTML += "<p>" + elem.equation + " = " + eval(cleanUp(elem.equation.replace(',', '.'))) + "</p>";
+                hist.innerHTML += "<p>" + elem.equation + " = " + eval(cleanUp(elem.equation.replace(',', '.'))).toFiced(2) + "</p>";
             }
             catch {
                 hist.innerHTML += "<p>" + elem.equation + " = ERROR</p>";
