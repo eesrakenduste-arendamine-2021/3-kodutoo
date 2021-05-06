@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <button id="mode" class="mode">Dark mode</button>
+        <div id="calculator-wrap" class="calculator-wrap">
+            <div id="answer" class="answer">
+                <span id="calc" class="calc"></span>
+                <br>
+                <span id="result" class="result">0</span>
+            </div>
+            <div id="calculator-btns" class="calculator-btns">
+                <div data-value="(" id="bracket-right" class="calculator-btn operand">(</div>
+                <div data-value=")" id="bracket-left" class="calculator-btn operand">)</div>
+                <div data-value="D" id="delete" class="calculator-btn back">&vltri;</div>
+                <div data-value="C" id="reset" class="calculator-btn clear">C</div>
+                <div data-value="7" id="seven" class="calculator-btn num">7</div>
+                <div data-value="8" id="eight" class="calculator-btn num">8</div>
+                <div data-value="9" id="nine" class="calculator-btn num">9</div>
+                <div data-value="/" id="divide" class="calculator-btn operand">&divide;</div>
+                <div data-value="4" id="four" class="calculator-btn num">4</div>
+                <div data-value="5" id="five" class="calculator-btn num">5</div>
+                <div data-value="6" id="six" class="calculator-btn num">6</div>
+                <div data-value="*" id="times" class="calculator-btn operand">&times;</div>
+                <div data-value="1" id="one" class="calculator-btn num">1</div>
+                <div data-value="2" id="two" class="calculator-btn num">2</div>
+                <div data-value="3" id="three" class="calculator-btn num">3</div>
+                <div data-value="-" id="minus" class="calculator-btn operand">&minus;</div>
+                <div data-value="." id="comma" class="calculator-btn operand">,</div>
+                <div data-value="0" id="zero" class="calculator-btn num">0</div>
+                <div data-value="=" id="equals" class="calculator-btn equals">&equals;</div>
+                <div data-value="+" id="plus" class="calculator-btn operand">&plus;</div>
+            </div>
+            <div id="history" class="history">
+                <button id="show-history" class="show-history">Show history</button>
+                <div id="history-calc" class="history-calc">
+                </div>
+                <button id="clear-history" class="clear-history">Delete history</button>
+            </div>
+        </div>
+        <footer>
+            <h2>Marilii Saar</h2>
+            <p><a href="https://github.com/mariliisaar/3-kodutoo" target="_blank">GitHub</a></p>
+        </footer>
+    </main>
+</body>
+</html>
