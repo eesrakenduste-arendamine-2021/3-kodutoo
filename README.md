@@ -1,9 +1,9 @@
 # 3kodutoo 
 
-##Töö autor:
+## Töö autor:
 Marilii Saar
 
-##Funktsionaalsus:
+## Funktsionaalsus:
 Kood on kirjutatud tutorialeid kasutamata.
 
 Lehe ülaosas on nupp, mis vahetab lehekülje kujundust öö- ja päevarežiimi vahel.
@@ -13,7 +13,7 @@ Tagasi nool kustutab tehtest viimasena sisestatud märgi. C nupp nullib arvutuse
 Klikkides 'Show history' nupul on võimalik ajalugu vaadata. Kui ajalugu ei ole, on sellekohane teade. Kui ajalugu on, siis on võimalik see siit ka kustutada.
 Kui kalkulaator saab tehet teaostades errori (nt üritades arvutada 28(5)), siis kuvab tulemuste lahter teate ERROR. Errorid kajastuvad ka ajaloos.
 
-##Ekraanitõmmised:
+## Ekraanitõmmised:
 Päevarežiimis kalkulaator:
 ![image](https://user-images.githubusercontent.com/70939416/117341620-0a470800-aeab-11eb-8180-61e8bd3c2257.png)
 
@@ -21,11 +21,12 @@ Päevarežiimis kalkulaator:
 ![image](https://user-images.githubusercontent.com/70939416/117341701-2054c880-aeab-11eb-9b0d-4fb4d0435dbe.png)
 
 Mobiilivaates (222x600) kalkulaator koos ERROR teatega:
+
 ![image](https://user-images.githubusercontent.com/70939416/117342433-eafcaa80-aeab-11eb-9ab0-503a0a4110c2.png)
 
 
 
-##Ülesande kirjeldus:
+## Ülesande kirjeldus:
 
 ## 3kodutoo - 15 punkti
 3. kodutöö Eesrakenduste arendamises.
