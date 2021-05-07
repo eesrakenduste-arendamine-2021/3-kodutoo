@@ -12,7 +12,7 @@ link: http://www.tlu.ee/~ekkealar/kodutoo3/
   * Kalkulaatorile on lisatud sulgude funktsionaalsus
   * Komakohtadega arvutamine
 * Tehte kustutamine ning viimase tehtemärgi eemaldamine
-* 
+* Lisatud repo link ning looja nimi
 
 ## Pildid
 "light theme"
