@@ -1,16 +1,34 @@
-# Harli Kodasma
-3. kodutöö Eesrakenduste arendamises.
+# 3. kodutöö
 
-## Tähtaeg 07.05.2021 23:59
+## Autor ja veebileht
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Autor: Harli Kodasma  
+Rakendus on kättesaadav siin: http://www.tlu.ee/~harli17/eesrakendused/kodutoo3/
 
-## Nõuded
+## Funktsionaalsus
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+* Öö- ja päevarežiimi vahetus kahe eraldi nupuga (default on öörežiim)
+* Mõlemad režiimis igast nupust üle hoverimine muudab selle stiili
+* Ajaloo funktsionaalsus kalkulaatori all olevas kastis, mis expandib allapoole
+* Arvude ja tehtemärkide sisestamine toimib nii Numpadiga kui ka ülemise numbrireaga klaviatuuril
+* Üle 12 numbri ei ole võimalik korraga sisestada, sellisel juhul kuvatakse veateade üles keskele mis ise fadeoutib. Kui tehte vastus on üle 12 numbri, siis kuvatakse esimesed 12 numbrit ning nende lõppu ... (kõik on nähtav ka ekraanipiltidel)
+* Githubi logo üleval vasakul viib rakenduse repositooriumisse
+* Katkiseid tehteid sisestades ei lähe leht katki (näiteks sisestades ainult tehtemärgi ja vajutades võrdusmärki; sisestades ainult arvu ja tehtemärgi ning siis vajutades võrdusmärki jne)
+
+## Märkus
+
+Ei kasutanud kalkulaatori loomisel ühtegi tutorialit, nii JS kui CSS on ise nullist tehtud (välja arvatud erinevad StackOverflow threadid jms allikad kust sai probleemide korral abi)
+
+## Ekraanipildid rakendusest
+
+### Vaade öörežiimis peale tehte arvutamist
+
+![Esimene screenshot](screenshots/screen1.PNG)
+
+### Vaade päevarežiimis kui sisestada üle 12 numbri korraga
+
+![Teine screenshot](screenshots/screen2.PNG)
+
+### Vaade päevarežiimis kui arvutada tehet mille vastus on üle 12 numbri pikk
+
+![Kolmas screenshot](screenshots/screen3.PNG)
