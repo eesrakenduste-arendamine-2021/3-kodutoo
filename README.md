@@ -1,16 +1,12 @@
 # 3kodutoo - 15 punkti
 3. kodutöö Eesrakenduste arendamises.
 
-## Tähtaeg 07.05.2021 23:59
+## Tehtud
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+* Kalkulaatoril on öö- ja päevarežiim (kella 21'st kuni 8ni). 
+* Lisatud on ajaloo funktsionaalsus - näitab viimast 14'st arvutust.
+* Töö on tehtud iseseisvalt, saab teha ühe tehte kaupa liitmist, lahutamist, korrutamist, jagamist ning sin, cos, tan. 
+* Autor: Stella-Marii Tamme
 
-## Nõuded
-
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+![image](https://user-images.githubusercontent.com/66253869/117429925-32c51580-af30-11eb-92e1-11c749746902.png)
+![image](https://user-images.githubusercontent.com/66253869/117430009-4cfef380-af30-11eb-917a-ecfb72c36f7e.png)

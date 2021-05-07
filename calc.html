@@ -1,0 +1,202 @@
+<style>
+    #repo{
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        cursor: pointer;
+        background-color: rgb(48, 48, 48);
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: white;
+    }
+    #repo:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #button{
+        cursor: pointer;
+        margin: 8px 0px 0px 12px;
+        background-color: rgb(48, 48, 48);
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #button:hover{
+        background-color: rgb(82, 82, 82);
+    }
+    #name{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        background-color: rgba(255, 255, 255, 0.877);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #bg{
+        height: 100vh;
+        background-color: rgb(218, 253, 253);
+    }
+    #title{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    #content{
+        display: flex;
+        flex-direction: row;
+        height: 75vh;
+    }
+    #main{
+        width: 70vw;
+        margin: 15px;
+
+    }
+    #calculator{
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        height: 12%;
+    }
+    #currentNr{
+        height: 70px;
+        width: 100%;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        font-size: 55px;
+        box-sizing: border-box;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+    #calculation{
+        height: 70px;
+        width: 100%;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        font-size: 40px;
+        box-sizing: border-box;
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    #history{
+        width: 30vw;
+    }
+    #title2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    #histCalc{
+        margin: 20px;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .button{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 4, 54);
+        color: white;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .number{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(22, 28, 122);
+        color: white;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .button:hover{
+        background-color: rgb(109, 117, 224);
+        cursor: pointer;
+    }
+    .number:hover{
+        background-color: rgb(109, 117, 224);
+        cursor: pointer;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="calc.js" defer></script>
+    <title>Kalkulaator</title>
+</head>
+<body>
+    <div id="bg">
+        <div id="title">Kalkulaator</div>
+        <div id="content">
+            <div id="main">
+                <div id="currentNr">0</div>
+                <div id="calculation"></div>
+                <div id="calculator">
+                    <div class="box">
+                        <button class="button" id="sin">sin</button>
+                        <button class="button" id="cos">cos</button>
+                        <button class="button" id="tan">tan</dibuttonv>
+                        <button class="button" id="/">/</button>
+                    </div>
+                    <div class="box">
+                        <button class="number" id="7">7</button>
+                        <button class="number" id="8">8</button>
+                        <button class="number" id="9">9</button>
+                        <button class="button" id="*">*</button>
+                    </div>
+                    <div class="box">
+                        <button class="number" id="4">4</button>
+                        <button class="number" id="5">5</button>
+                        <button class="number" id="6">6</button>
+                        <button class="button" id="-">-</button>
+                    </div>
+                    <div class="box">
+                        <button class="number" id="1">1</button>
+                        <button class="number" id="2">2</button>
+                        <button class="number" id="3">3</button>
+                        <button class="button" id="+">+</button>
+                    </div>
+                    <div class="box">
+                        <button class="button" id="clear">C</button>
+                        <button class="number" id="0">0</button>
+                        <button class="number" id=".">.</button>
+                        <button class="button" id="=">=</button>
+                    </div>
+                </div>
+            </div>
+            <div id="history">
+                <div id="title2">Ajalugu</div>
+                <div id="histCalc"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="repo" onclick="location.href='https://github.com/stellamarii/3-kodutoo';">Github</div>
+            <div id="name">Stella-Marii Tamme</div>
+        </div>
+    </div>
+</body>
+</html>
