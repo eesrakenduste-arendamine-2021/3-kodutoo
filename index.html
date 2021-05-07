@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulaator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script src="calc.js" defer></script>
+    <style></style>
+</head>
+<body>
+    <div id="message">Üle 12 numbri ei ole lubatud sisestada!</div>
+    <div id="calc">
+        <div id="centered">
+        <div id="display">
+            <span id="selectedOperator"></span>
+            <span id="numbers">0</span>
+        </div>
+        <br>
+        <div id="buttons">
+            <div class="row">
+                <button id="c" class="largeButton">C</button>
+                <button id="del" class="smallButton">⌫</button>
+                <button id="divide" class="smallButton">÷</button>
+            </div>
+            <div class="row">
+                <button id="no7" class="smallButton numbers">7</button>
+                <button id="no8" class="smallButton numbers">8</button>
+                <button id="no9" class="smallButton numbers">9</button>
+                <button id="multiply" class="smallButton">×</button>
+            </div>
+            <div class="row">
+                <button id="no4" class="smallButton numbers">4</button>
+                <button id="no5" class="smallButton numbers">5</button>
+                <button id="no6" class="smallButton numbers">6</button>
+                <button id="subtract" class="smallButton">-</button>
+            </div>
+            <div class="row">
+                <button id="no1" class="smallButton numbers">1</button>
+                <button id="no2" class="smallButton numbers">2</button>
+                <button id="no3" class="smallButton numbers">3</button>
+                <button id="sum" class="smallButton">+</button>
+            </div>
+            <div class="row">
+                <button id="no0" class="smallButton">0</button>
+                <button id="comma" class="smallButton">.</button>
+                <button id="equals" class="largeButton">=</button>
+            </div>
+        </div>
+        <br>
+        <span id="nightTheme"><img src="img/dark.png" alt="dark"></span><span id="theme">Vaheta režiimi</span><span id="dayTheme"><img src="img/light.png" alt="light"></span></div>
+    </div>
+    <div id="historyBox">
+        <div id="historyTitle">Ajalugu:</div>
+        <br>
+        <div id="history">Ajalugu puudub</div>
+    </div>
+    <div id="author">Autor: Harli Kodasma</div>
+    <div id="github"><a href="https://github.com/harlikodasma/3-kodutoo" target="_blank"><img src="img/github.png" alt="github"></a></div>
+</body>
+</html>
