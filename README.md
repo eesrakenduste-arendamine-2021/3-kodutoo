@@ -1,16 +1,16 @@
 # 3kodutoo - 15 punkti
 3. kodutöö Eesrakenduste arendamises.
 
-## Tähtaeg 07.05.2021 23:59
+## Alex Nelke 3 kodutöö
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Kalkulaatoril on liitmine, lahutamine, sulud, korrutamine, jagamine, negatiivsed arvud, cos, sin, tan, komaarvud ja ruutjuure võimalused.
+Veebilehel saab muuta öö-ja päevarežiimi vahel.
+Kalkulaatoril ei ole ajaloo vaatamise võimalust.
 
-## Nõuded
+![image](https://user-images.githubusercontent.com/71014196/117503579-cf67d180-af89-11eb-9489-688469d1e03c.png)
+![image](https://user-images.githubusercontent.com/71014196/117503360-83b52800-af89-11eb-8e3e-234230d65db1.png)
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+##kasutatud allikad:
+https://stackoverflow.com/questions/16428932/how-to-make-one-button-change-two-stylesheets
+https://www.w3schools.com/js/js_math.asp
+https://www.youtube.com/watch?v=j59qQ7YWLxw - koodi siit ei kasutanud, ainult õppimise jaoks
