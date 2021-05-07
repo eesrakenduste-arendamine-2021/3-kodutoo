@@ -1,16 +1,18 @@
-# 3kodutoo - 15 punkti
-3. kodutöö Eesrakenduste arendamises.
+Kalkulaatori baas: https://webdevtrick.com/basic-javascript-calculator-source-code/
 
-## Tähtaeg 07.05.2021 23:59
+Lisatud funktsionaalsused:
+  arvu ruut
+  arvu ruutjuur
+  pi
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Kalkulaator on funktsionaalne ja sellel on ka öö/päevarežiim
 
-## Nõuded
+päevarežiim:
+![chrome_2021-05-07_11-26-09](https://user-images.githubusercontent.com/61016508/117421918-b1698500-af27-11eb-9e43-b36908cc6604.png)
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+Öörežiim:
+![chrome_2021-05-07_11-26-20](https://user-images.githubusercontent.com/61016508/117421976-c514eb80-af27-11eb-829e-140f34a90bde.png)
+
+
+
+
