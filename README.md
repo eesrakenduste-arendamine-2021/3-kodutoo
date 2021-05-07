@@ -7,3 +7,4 @@ Kasutatud on ka https://www.edureka.co/blog/javascript-calculator/ õpetust.
 
 Gif kalkulaatorist öö-ja päevarežiimis:
 ![alt text](https://github.com/liismik/3-kodutoo/blob/main/calc.gif)
+![alt_text](https://github.com/liismik/3-kodutoo/blob/main/calc2.gif)
