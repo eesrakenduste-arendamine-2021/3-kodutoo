@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a0020;
+}
+
+header {
+  font-family: "DotGothic16", sans-serif;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 2px;
+}
+
+.repo {
+  right: 0;
+  bottom: 0;
+  margin: 2px;
+  border: solid 1px #000;
+  font-size: 18px;
+  color: #ccc;
+  background-color: slategrey;
+  border-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.regime {
+  margin-top: 10px;
+  border: solid 1px #000;
+  font-size: 18px;
+  color: #ccc;
+  background-color: slategrey;
+  border-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.nupud {
+  display: flex;
+  margin: auto;
+  width: 150px;
+}
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+  border-radius: 7px;
+  margin: auto;
+  max-width: fit-content;
+  margin-top: 100px;
+  background-color: #2d0f35;
+}
+
+input[type="text"] {
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #333333;
+  color: #d9d9d9;
+  padding: 0 5px 0 5px;
+  margin-bottom: 5px;
+}
+
+.calc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  margin: 3px;
+  width: 63px;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumslateblue;
+  transition: 0.2s;
+}
+
+.functions {
+  width: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.triggers {
+  background-color: darkorange;
+}
+
+.numbers {
+  background-color: darkgrey;
+}
+
+.basic {
+  background-color: skyblue;
+}
+
+.complex {
+  background-color: lightblue;
+}

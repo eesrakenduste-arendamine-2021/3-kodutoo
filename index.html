@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="styles2.css"/>
+    <link id="pagestyle2" rel="stylesheet" type="text/css" href="styles.css"/>
+    <script type="text/javascript">
+        function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+        document.getElementById('pagestyle2').setAttribute('href', sheet);
+        }
+    </script>
+</head>
+<header>
+    <div>
+        <h1>Alex Nelke kalkulaator</h1>
+    </div>
+</header>
+<body>
+<div class="calculator">
+    <input type="text" id="screen">
+    <div class="calc-buttons">
+
+        <div class="functions">
+            <button class="button triggers">C</button>
+            <button class="button basic">(</button>
+            <button class="button basic">)</button>
+            <button class="button numbers">7</button>
+            <button class="button numbers">8</button>
+            <button class="button numbers">9</button>
+            <button class="button numbers">4</button>
+            <button class="button numbers">5</button>
+            <button class="button numbers">6</button>
+            <button class="button numbers">1</button>
+            <button class="button numbers">2</button>
+            <button class="button numbers">3</button>
+            <button class="button basic">±</button>
+            <button class="button numbers">0</button>
+            <button class="button basic">.</button>
+            <button class="button basic">*</button>
+            <button class="button basic">/</button>
+            <button class="button basic">+</button>
+            <button class="button complex">cos</button>
+            <button class="button basic">-</button>
+            <button class="button complex">√</button>
+            <button class="button complex">sin</button>
+            <button class="button complex">tan</button>
+            <button class="button triggers">=</button>
+        </div>
+    </div>
+    <button onclick="swapStyleSheet('styles2.css')" class="regime">öörežiim</button>
+    <button onClick="swapStyleSheet('styles.css')" class="regime">päevarežiim</button>
+</div>
+<script src="script.js" defer></script>
+</body>
+<footer>
+        <a href="https://github.com/Alexn123/2-kodutoo"><button class="repo">Alex Nelke github</button></a>
+</footer>
+</html>
