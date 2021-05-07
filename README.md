@@ -12,7 +12,7 @@ Kalkulaatoril ei ole ajaloo vaatamise võimalust.
 
 
 
-##kasutatud allikad:
+## kasutatud allikad:
 https://stackoverflow.com/questions/16428932/how-to-make-one-button-change-two-stylesheets
 https://www.w3schools.com/js/js_math.asp
 https://www.youtube.com/watch?v=j59qQ7YWLxw - koodi siit ei kasutanud, ainult õppimise jaoks
