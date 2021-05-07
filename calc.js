@@ -114,7 +114,7 @@ $(document).ready(function(){
 });
  
 let date = new Date;
-let hours = 7//date.getHours();
+let hours = date.getHours();
 
 if(hours >= 21 || hours < 8){
     console.log("mau");
