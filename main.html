@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulaator</title>
+</head>
+<body id="main">
+    <button id="regime" onclick="dayNightRegime()">Öörežiim</button>
+    <br>
+    <button id="repo"><a href="https://github.com/liismik/3_kodutoo">Repo</a></button>
+    <br>
+    <a id="name">Liisa Mikola / liismik</a>
+    <h1 id="title">Kalkulaator</h1>
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="output" disabled placeholder="0"/></td>
+        </tr>
+        <tr>
+            <td><input id="cbsin" type="button" value="sin" onclick="buttonClick('sin')" /></td>
+            <td><input id="cbcos" type="button" value="cos" onclick="buttonClick('cos')" /></td>
+            <td><input id="cbtan" type="button" value="tan" onclick="buttonClick('tan')" /></td>
+            <td><input type="button" id="cbC" value="C" onclick="clr()"/> </td>
+        </tr>
+        <tr>
+            <td><input id="cb7" type="button" value="7" onclick="buttonClick('7')" /></td>
+            <td><input id="cb8" type="button" value="8" onclick="buttonClick('8')" /></td>
+            <td><input id="cb9" type="button" value="9" onclick="buttonClick('9')" /></td>
+            <td><input id="cbti" type="button" value="*" onclick="buttonClick('*')" /></td>
+        </tr>
+        <tr>
+            <td><input id="cb4" type="button" value="4" onclick="buttonClick('4')" /></td>
+            <td><input id="cb5" type="button" value="5" onclick="buttonClick('5')" /></td>
+            <td><input id="cb6" type="button" value="6" onclick="buttonClick('6')" /></td>
+            <td><input id="cbmi" type="button" value="-" onclick="buttonClick('-')" /></td>
+        </tr>
+        <tr>
+            <td><input id="cb1" type="button" value="1" onclick="buttonClick('1')" /></td>
+            <td><input id="cb2" type="button" value="2" onclick="buttonClick('2')" /></td>
+            <td><input id="cb3" type="button" value="3" onclick="buttonClick('3')" /></td>
+            <td><input id="cbpl" type="button" value="+" onclick="buttonClick('+')" /></td>
+        </tr>
+        <tr>
+            <td><input id="cb0" type="button" value="0" onclick="buttonClick('0')" /></td>
+            <td><input id="cbdo" type="button" value="." onclick="buttonClick('.')" /></td>
+            <td><input id="cbdi" type="button" value="/" onclick="buttonClick('/')" /></td>
+            <td><input id="cbeq" type="button" value="=" onclick="solve()"/> </td>
+        </tr>
+    </table>
+    <p id="nb1">Sin, cos, ja tan kasutamiseks sisestage need enne väärtust.</p>
+    <p id="nb2">NB! sin, cos ja tan väärtused on radiaanides.</p>
+    <h2 id="history_title">Varasemad tehted</h2>
+    <div id="history">
+    </div>
+</body>
+</html>
