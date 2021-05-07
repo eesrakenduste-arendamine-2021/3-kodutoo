@@ -1,0 +1,82 @@
+<!-- 
+    ✅todo:
+    * css ja kraam
+    * dark mode
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Calculator</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="evil.js" defer></script>
+		<script src="calculator.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="theme">
+				<div class="footer">
+					<a href="https://github.com/ekkealar/3-kodutoo">
+						<img id="git" src="img/GitHub.png" width="24" height="24" />
+					</a>
+					<p id="name">Ekke Alar Toomingas</p>
+				</div>
+				<button type="submit" value="dark" id="theme" class="themeBtn">
+					<img id="btnImg" src="img/dark.png" />
+				</button>
+			</div>
+			<!--👨‍💻✔️-->
+			<div class="calculator">
+				<div class="calcResult">
+					<input type="text" id="display" class="display" disabled />
+				</div>
+				<div class="calcButtons">
+					<div class="row">
+						<button value="C" class="delete" onclick="clearDisplay()">C</button>
+						<button value="del" class="delete" onclick="deleteLast()">⟸</button>
+					</div>
+					<div class="row">
+						<button value="7" onclick="button('7')">7</button>
+						<button value="8" onclick="button('8')">8</button>
+						<button value="9" onclick="button('9')">9</button>
+						<button value="/" onclick="button('/')">÷</button>
+					</div>
+					<div class="row">
+						<button value="4" onclick="button('4')">4</button>
+						<button value="5" onclick="button('5')">5</button>
+						<button value="6" onclick="button('6')">6</button>
+						<button value="*" onclick="button('*')">*</button>
+					</div>
+					<div class="row">
+						<button value="1" onclick="button('1')">1</button>
+						<button value="2" onclick="button('2')">2</button>
+						<button value="3" onclick="button('3')">3</button>
+						<button value="-" onclick="button('-')">-</button>
+					</div>
+					<div class="row">
+						<button value="(" onclick="button('(')">(</button>
+						<button value=")" onclick="button(')')">)</button>
+						<button value="^" onclick="button('^')">^</button>
+						<button value="+" onclick="button('+')">+</button>
+					</div>
+					<div class="rowLast">
+						<button value="0" onclick="button('0')">0</button>
+						<button value="." onclick="button('.')">.</button>
+						<button value="=" class="solve" onclick="solve()">=</button>
+					</div>
+				</div>
+			</div>
+			<div class="historyHolder">
+				<button class="historyBtn" onclick="showHistory()">history</button>
+				<div id="history">
+					<div id="historyProblem"></div>
+					<div id="historyAnswer"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
