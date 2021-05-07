@@ -1,8 +1,8 @@
 Kalkulaatori baas: https://webdevtrick.com/basic-javascript-calculator-source-code/
 
 Lisatud funktsionaalsused:
-  arvu ruut
-  arvu ruutjuur
+  arvu ruut,
+  arvu ruutjuur,
   pi
 
 Kalkulaator on funktsionaalne ja sellel on ka öö/päevarežiim
