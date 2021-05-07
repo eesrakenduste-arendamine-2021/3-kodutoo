@@ -1,16 +1,22 @@
-# 3kodutoo - 15 punkti
-3. kodutöö Eesrakenduste arendamises.
+# Kolmas kodutöö - kalkulaator
 
-## Tähtaeg 07.05.2021 23:59
+Autor: Margo Narõškin
 
-Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasutada aluseks mõnda youtube'ist leitavad õpetust: https://www.youtube.com/results?search_query=javascript+calculator+tutorial - tutorial tuleb README failis ära märkida ning tulemus peab erinema õpetusest disain osas ja mõtlema juurde ise funktsionaalsuseid (tangensid, koosiinused, siinused, astmed, ruutjuured, logaritmid, exponentsiaalid, kahendsüsteem, mällu salvestamine jne).
+Link: http://www.tlu.ee/~mnaro/eesrakendused/kodutoo3/
 
-## Nõuded
+Kalkulaatori baas: https://www.edureka.co/blog/javascript-calculator/
 
-1. Veebirakendus töötab.
-1. Kalkulaatoril on öö- ja päevarežiim. 
-1. Kui kasutatud on mõnda õpetust, siis see on README-s ära märgitud ning lisatud sinna ise vähemalt 3 kalkuleerimisfunktsionaalsust
-1. Lisatud on ajaloo funktsionaalsus - näidatakse varasemalt tehtud arvutusi (sama sessiooni jooksul). 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+## Funktsionaalsused
+
+* Võimalik vahetada öö- ja päevarežiimi vahel vajutades ikoonile ☀
+* Ajaloo vaatamine, mis näitab varasemalt tehtud arvutusi
+* ANS nupp võtab kalkulaatoris viimase lahendatud tehte vastuse
+* Tehte kustutamine terveniste või ühe sisendi kaupa
+* Arvude astendamine ja nendega arvutustete tegemine
+ 
+## Rakenduse ekraanipildid
+
+![1](https://user-images.githubusercontent.com/71014147/117481398-9d477700-af6b-11eb-9a94-46fb2c1f3a3a.PNG)
+![2](https://user-images.githubusercontent.com/71014147/117481456-b3553780-af6b-11eb-9ec9-fe47199f9980.PNG)
+![3](https://user-images.githubusercontent.com/71014147/117481464-b6e8be80-af6b-11eb-90f6-75f5cf8f8855.PNG)
+![4](https://user-images.githubusercontent.com/71014147/117481467-b819eb80-af6b-11eb-8e15-405d08265a0a.PNG)
