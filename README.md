@@ -14,3 +14,16 @@ Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasut
 1. Autori ees- ja perenimi on lehel välja toodud
 1. Lehel on viide rakenduse repositooriumile
 1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+
+# Funktsionaalsused
+1. Tehtud kalkulaatoril saab valida öö ja päevarežiim.
+2. On võimalik liita, lahutada, korrutada, jagada, astendada, võtta ruutjuur ja võtta arv ruutu.
+3. Samuti kuvatakse tehete ajalugu.
+
+Õpetuseks oli Youtube'i video: https://www.youtube.com/watch?v=j59qQ7YWLxw&t=1680s&ab_channel=WebDevSimplified
+
+# Ekraani pildid
+
+![image](https://github.com/Anettrydja/3-kodutoo/blob/main/screen_1.JPG?raw=true)
+![image](https://github.com/Anettrydja/3-kodutoo/blob/main/screen_2.JPG?raw=true)
+

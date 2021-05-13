@@ -1,0 +1,132 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: normal;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#FF7AA2, #FFE0E9);
+  }
+
+  h2{
+      color: white;
+  }
+
+.regimeButton{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 140px;
+    height: 30px;
+    background-color: #FFE0E9;
+    display: flex;
+    justify-content: center;
+} 
+
+.repo {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 11%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 140px;
+    height: 30px;
+    background-color: #FFE0E9;
+    display: flex;
+    justify-content: center;
+}
+  
+  .calculator-grid {
+    display: grid;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  }
+
+  .dark-mode {
+    background: linear-gradient(#03012C, #D55A7F);
+  }
+  
+  .calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 2px solid #723c70;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    background-color: rgba(3, 1, 44, 0.2);
+  }
+
+  .historyList {
+      justify-content: center;
+      margin-left: 74%;
+      color: white;
+      text-shadow: 2px 2px black;
+      font-size: xx-large;
+  }
+
+  .calculator-grid > button:hover {
+    background-color: #FFE0E9;
+    box-shadow: 0px 10px 30px #FFE0E9;
+    border-radius: 8px;
+  }
+  
+  .span-two {
+    grid-column: span 2;
+  }
+  .span-three {
+    grid-column: span 3;
+  }
+  
+  .output {
+    grid-column: 1 / -1;
+    background-color: #eae4e9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 16px;
+    height: 6em;
+  }
+  
+  .output .previous-operand {
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 1rem;
+  }
+  
+  .output .current-operand {
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 2rem;
+  }
+
+  h1{
+    margin-left: 74%;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+  }
+
+  h2{
+      position: absolute;
+      margin-left: 10%;
+      margin-top: 8%;
+  }
+
+  .historyTD{
+    color: white;
+    margin-left: 85%;
+  }
