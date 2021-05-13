@@ -25,4 +25,5 @@ Kujundada ja programmeerida iseseisvalt töötav kalkulaator. Võib vabalt kasut
 # Ekraani pildid
 
 ![image](https://github.com/Anettrydja/3-kodutoo/blob/main/screen_1.JPG?raw=true)
+![image](https://github.com/Anettrydja/3-kodutoo/blob/main/screen_2.JPG?raw=true)
 
